@@ -1,15 +1,18 @@
-Initialize the directory
-terraform init
+### **Initialize the directory**
+`terraform init`
 
-Format and validate the configuration
+### **Format and validate the configuration**
+```
 terraform fmt 
 terraform validate
+```
 
-Create infrastructure
+### **Create infrastructure**
+```
 terraform plan
-
 terraform apply
+```
 
 
-Delete infrastructure
-terraform destroy 
+### **Delete infrastructure**
+`terraform destroy `
