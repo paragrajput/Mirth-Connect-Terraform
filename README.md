@@ -1,7 +1,7 @@
 <p align=”center”>
 
 ### **Initialize the directory**
-`terraform init`
+```terraform init```
 
 ### **Format and validate the configuration**
 ```
@@ -17,6 +17,6 @@ terraform apply
 
 
 ### **Delete infrastructure**
-`terraform destroy `
+```terraform destroy ```
 
 </p>
