@@ -63,7 +63,7 @@ variable "generated_key_name" {
 
 # Instance ami
 variable "ami" {
-  default     = "ami-06e46074ae430fba6"
+  default     = "ami-04b70fa74e45c3917"
   description = "ami of vm"
 }
 
