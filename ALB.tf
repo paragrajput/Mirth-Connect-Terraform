@@ -1,7 +1,7 @@
 # Target group
  resource "aws_lb_target_group" "target-group" {
   name        = "${var.albname}-tg"
-  port        = 80
+  port        = 8080
   protocol    = "HTTP"
   target_type = "instance"
   vpc_id      = aws_vpc.vpc.id
@@ -10,7 +10,7 @@
     enabled             = true
     interval            = 10
     path                = "/"
-    port                = 80
+    port                = 8080
     protocol            = "HTTP"
     timeout             = 5
     healthy_threshold   = 2
